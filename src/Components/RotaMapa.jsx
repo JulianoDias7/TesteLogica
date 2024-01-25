@@ -9,7 +9,7 @@ const RotaMapa = ({mostrar, fecharModal}) => {
     useEffect(() => {
         if (mostrar) {
             axios
-                .get('http://localhost:5000/clientes')
+                .get('/clientes')
                 .then(response => {
                     const listaDeClientes = response.data;
 

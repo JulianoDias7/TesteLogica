@@ -20,7 +20,7 @@ const AdicionarCliente = () => {
         e.preventDefault();
 
         axios
-            .post('http://localhost:5000/clientes', formData)
+            .post('/clientes', formData)
             .then(response => {
                 if (response.data != null) {
                     setMensagem(`Cliente ${formData.nome} cadastrado com sucesso!`);
