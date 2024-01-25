@@ -7,7 +7,7 @@ const ListarClientes = () => {
 
     useEffect(() => {
         axios
-            .get('/clientes')
+            .get('http://localhost:5000/clientes')
             .then(response => {
                 setClients(response.data);
             })
