@@ -1,7 +1,7 @@
 ##Site está hospedado no endereço https://teste-front-tyax.onrender.com.
 
 #DB em postgreSQL está vinculado ao arquivo backend.js, as credenciais são dadas conforme o que está no arquivo .env
-Está liberado para fazer clone.
+
 
 #1º git clone https://github.com/JulianoDias7/TesteLogica.git
 
